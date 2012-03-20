@@ -1,0 +1,465 @@
+Feb 22 19:30:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Feb 22 19:30:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 19:30:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 19:30:44 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Feb 22 19:30:44 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Feb 22 19:30:44 symfony [info] {main} Set slot "title"
+Feb 22 19:30:44 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:30:44 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:30:44 symfony [info] {main} Get slot "title"
+Feb 22 19:30:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 19:30:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 19:30:44 symfony [info] {sfWebDebugLogger} Configuration 4.20 ms (9)
+Feb 22 19:30:44 symfony [info] {sfWebDebugLogger} Factories 60.24 ms (1)
+Feb 22 19:30:44 symfony [info] {sfWebDebugLogger} Action "job/show" 41.67 ms (1)
+Feb 22 19:30:44 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 30.82 ms (1)
+Feb 22 19:30:44 symfony [info] {sfWebResponse} Send content (30321 o)
+Feb 22 19:41:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 22 19:41:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 19:41:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 19:41:28 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 22 19:41:28 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 22 19:41:28 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:41:28 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:41:28 symfony [info] {main} Get slot "title"
+Feb 22 19:41:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 19:41:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 19:41:28 symfony [info] {sfWebDebugLogger} Configuration 4.40 ms (9)
+Feb 22 19:41:28 symfony [info] {sfWebDebugLogger} Factories 68.03 ms (1)
+Feb 22 19:41:28 symfony [info] {sfWebDebugLogger} Action "job/index" 47.92 ms (1)
+Feb 22 19:41:28 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 33.08 ms (1)
+Feb 22 19:41:28 symfony [info] {sfWebResponse} Send content (29633 o)
+Feb 22 19:41:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 22 19:41:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 19:41:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 19:41:30 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 22 19:41:30 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 22 19:41:30 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:41:30 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 22 19:41:30 symfony [info] {main} Get slot "title"
+Feb 22 19:41:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 19:41:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 19:41:30 symfony [info] {sfWebDebugLogger} Configuration 4.22 ms (9)
+Feb 22 19:41:30 symfony [info] {sfWebDebugLogger} Factories 58.94 ms (1)
+Feb 22 19:41:30 symfony [info] {sfWebDebugLogger} Action "job/index" 40.73 ms (1)
+Feb 22 19:41:30 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 29.29 ms (1)
+Feb 22 19:41:30 symfony [info] {sfWebResponse} Send content (29400 o)
+Feb 23 19:16:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:16:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:01 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:16:01 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:16:01 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:01 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:01 symfony [info] {main} Get slot "title"
+Feb 23 19:16:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:01 symfony [info] {sfWebDebugLogger} Configuration 4.26 ms (9)
+Feb 23 19:16:01 symfony [info] {sfWebDebugLogger} Factories 70.11 ms (1)
+Feb 23 19:16:01 symfony [info] {sfWebDebugLogger} Action "job/index" 48.37 ms (1)
+Feb 23 19:16:01 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 33.60 ms (1)
+Feb 23 19:16:01 symfony [info] {sfWebResponse} Send content (29268 o)
+Feb 23 19:16:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:16:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:04 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:16:04 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:16:04 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:04 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:04 symfony [info] {main} Get slot "title"
+Feb 23 19:16:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:04 symfony [info] {sfWebDebugLogger} Configuration 4.22 ms (9)
+Feb 23 19:16:04 symfony [info] {sfWebDebugLogger} Factories 68.30 ms (1)
+Feb 23 19:16:04 symfony [info] {sfWebDebugLogger} Action "job/index" 47.47 ms (1)
+Feb 23 19:16:04 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 33.25 ms (1)
+Feb 23 19:16:04 symfony [info] {sfWebResponse} Send content (29296 o)
+Feb 23 19:16:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Feb 23 19:16:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:07 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Feb 23 19:16:07 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Feb 23 19:16:07 symfony [info] {main} Set slot "title"
+Feb 23 19:16:07 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:07 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:07 symfony [info] {main} Get slot "title"
+Feb 23 19:16:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:07 symfony [info] {sfWebDebugLogger} Configuration 4.37 ms (9)
+Feb 23 19:16:07 symfony [info] {sfWebDebugLogger} Factories 68.34 ms (1)
+Feb 23 19:16:07 symfony [info] {sfWebDebugLogger} Action "job/show" 48.22 ms (1)
+Feb 23 19:16:07 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 35.28 ms (1)
+Feb 23 19:16:07 symfony [info] {sfWebResponse} Send content (30321 o)
+Feb 23 19:16:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:16:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:10 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:16:11 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:16:11 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:11 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:11 symfony [info] {main} Get slot "title"
+Feb 23 19:16:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:11 symfony [info] {sfWebDebugLogger} Configuration 4.34 ms (9)
+Feb 23 19:16:11 symfony [info] {sfWebDebugLogger} Factories 67.80 ms (1)
+Feb 23 19:16:11 symfony [info] {sfWebDebugLogger} Action "job/index" 45.80 ms (1)
+Feb 23 19:16:11 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 31.54 ms (1)
+Feb 23 19:16:11 symfony [info] {sfWebResponse} Send content (29296 o)
+Feb 23 19:16:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/3 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '3',)
+Feb 23 19:16:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:16 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Feb 23 19:16:16 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Feb 23 19:16:16 symfony [info] {main} Set slot "title"
+Feb 23 19:16:16 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:16 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:16 symfony [info] {main} Get slot "title"
+Feb 23 19:16:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:16 symfony [info] {sfWebDebugLogger} Configuration 4.26 ms (9)
+Feb 23 19:16:16 symfony [info] {sfWebDebugLogger} Factories 68.00 ms (1)
+Feb 23 19:16:16 symfony [info] {sfWebDebugLogger} Action "job/show" 48.37 ms (1)
+Feb 23 19:16:16 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 34.52 ms (1)
+Feb 23 19:16:16 symfony [info] {sfWebResponse} Send content (29802 o)
+Feb 23 19:16:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:16:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:19 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:16:20 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:16:20 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:20 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:20 symfony [info] {main} Get slot "title"
+Feb 23 19:16:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:20 symfony [info] {sfWebDebugLogger} Configuration 4.33 ms (9)
+Feb 23 19:16:20 symfony [info] {sfWebDebugLogger} Factories 68.69 ms (1)
+Feb 23 19:16:20 symfony [info] {sfWebDebugLogger} Action "job/index" 47.23 ms (1)
+Feb 23 19:16:20 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 32.94 ms (1)
+Feb 23 19:16:20 symfony [info] {sfWebResponse} Send content (29296 o)
+Feb 23 19:16:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Feb 23 19:16:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:16:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:16:21 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Feb 23 19:16:21 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Feb 23 19:16:21 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Feb 23 19:16:21 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:21 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:16:21 symfony [info] {main} Get slot "title"
+Feb 23 19:16:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:16:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:16:21 symfony [info] {sfWebDebugLogger} Configuration 4.32 ms (9)
+Feb 23 19:16:21 symfony [info] {sfWebDebugLogger} Factories 68.12 ms (1)
+Feb 23 19:16:21 symfony [info] {sfWebDebugLogger} Action "job/new" 74.40 ms (1)
+Feb 23 19:16:21 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 159.83 ms (1)
+Feb 23 19:16:21 symfony [info] {sfWebDebugLogger} Partial "job/_form" 129.34 ms (1)
+Feb 23 19:16:21 symfony [info] {sfWebResponse} Send content (55128 o)
+Feb 23 19:19:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:19:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:19:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:19:36 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:19:36 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:19:36 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:19:36 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:19:37 symfony [info] {main} Get slot "title"
+Feb 23 19:19:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:19:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:19:37 symfony [info] {sfWebDebugLogger} Configuration 4.34 ms (9)
+Feb 23 19:19:37 symfony [info] {sfWebDebugLogger} Factories 68.58 ms (1)
+Feb 23 19:19:37 symfony [info] {sfWebDebugLogger} Action "job/index" 47.41 ms (1)
+Feb 23 19:19:37 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 32.99 ms (1)
+Feb 23 19:19:37 symfony [info] {sfWebResponse} Send content (29296 o)
+Feb 23 19:19:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 19:19:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 19:19:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 19:19:40 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Feb 23 19:19:40 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Feb 23 19:19:40 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:19:40 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Feb 23 19:19:40 symfony [info] {main} Get slot "title"
+Feb 23 19:19:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 23 19:19:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 19:19:40 symfony [info] {sfWebDebugLogger} Configuration 4.25 ms (9)
+Feb 23 19:19:40 symfony [info] {sfWebDebugLogger} Factories 67.64 ms (1)
+Feb 23 19:19:40 symfony [info] {sfWebDebugLogger} Action "job/index" 46.14 ms (1)
+Feb 23 19:19:40 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 31.67 ms (1)
+Feb 23 19:19:40 symfony [info] {sfWebResponse} Send content (29296 o)
+Mar 12 17:47:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 17:47:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:47:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:47:19 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 17:47:19 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 17:47:19 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:47:19 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:47:19 symfony [info] {main} Get slot "title"
+Mar 12 17:47:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:47:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:47:19 symfony [info] {sfWebDebugLogger} Configuration 29.88 ms (10)
+Mar 12 17:47:19 symfony [info] {sfWebDebugLogger} Factories 70.32 ms (1)
+Mar 12 17:47:19 symfony [info] {sfWebDebugLogger} Action "job/index" 47.40 ms (1)
+Mar 12 17:47:19 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 33.37 ms (1)
+Mar 12 17:47:19 symfony [info] {sfWebResponse} Send content (29078 o)
+Mar 12 17:48:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Mar 12 17:48:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:48:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:48:07 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Mar 12 17:48:08 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Mar 12 17:48:08 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 17:48:08 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:48:08 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:48:08 symfony [info] {main} Get slot "title"
+Mar 12 17:48:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:48:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:48:08 symfony [info] {sfWebDebugLogger} Configuration 4.32 ms (9)
+Mar 12 17:48:08 symfony [info] {sfWebDebugLogger} Factories 59.35 ms (1)
+Mar 12 17:48:08 symfony [info] {sfWebDebugLogger} Action "job/new" 64.80 ms (1)
+Mar 12 17:48:08 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 157.10 ms (1)
+Mar 12 17:48:08 symfony [info] {sfWebDebugLogger} Partial "job/_form" 129.81 ms (1)
+Mar 12 17:48:08 symfony [info] {sfWebResponse} Send content (54848 o)
+Mar 12 17:48:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 17:48:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:48:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:48:13 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 17:48:13 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 17:48:13 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:48:13 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:48:13 symfony [info] {main} Get slot "title"
+Mar 12 17:48:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:48:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:48:13 symfony [info] {sfWebDebugLogger} Configuration 4.25 ms (9)
+Mar 12 17:48:13 symfony [info] {sfWebDebugLogger} Factories 59.82 ms (1)
+Mar 12 17:48:13 symfony [info] {sfWebDebugLogger} Action "job/index" 40.78 ms (1)
+Mar 12 17:48:13 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 29.26 ms (1)
+Mar 12 17:48:13 symfony [info] {sfWebResponse} Send content (29445 o)
+Mar 12 17:52:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 17:52:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:52:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:52:51 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 17:52:51 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 17:52:51 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:52:51 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:52:51 symfony [info] {main} Get slot "title"
+Mar 12 17:52:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:52:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:52:51 symfony [info] {sfWebDebugLogger} Configuration 4.62 ms (9)
+Mar 12 17:52:51 symfony [info] {sfWebDebugLogger} Factories 68.65 ms (1)
+Mar 12 17:52:51 symfony [info] {sfWebDebugLogger} Action "job/index" 47.48 ms (1)
+Mar 12 17:52:51 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 32.88 ms (1)
+Mar 12 17:52:51 symfony [info] {sfWebResponse} Send content (29502 o)
+Mar 12 17:55:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Mar 12 17:55:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:55:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:55:54 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Mar 12 17:55:54 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Mar 12 17:55:54 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 17:55:55 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:55:55 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:55:55 symfony [info] {main} Get slot "title"
+Mar 12 17:55:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:55:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:55:55 symfony [info] {sfWebDebugLogger} Configuration 4.23 ms (9)
+Mar 12 17:55:55 symfony [info] {sfWebDebugLogger} Factories 68.73 ms (1)
+Mar 12 17:55:55 symfony [info] {sfWebDebugLogger} Action "job/new" 73.40 ms (1)
+Mar 12 17:55:55 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 159.41 ms (1)
+Mar 12 17:55:55 symfony [info] {sfWebDebugLogger} Partial "job/_form" 128.65 ms (1)
+Mar 12 17:55:55 symfony [info] {sfWebResponse} Send content (54858 o)
+Mar 12 17:57:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Mar 12 17:57:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 17:57:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 17:57:40 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Mar 12 17:57:40 symfony [info] {jobActions} Change template to "CURRENT/new"
+Mar 12 17:57:40 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Mar 12 17:57:40 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 17:57:40 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:57:40 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 17:57:40 symfony [info] {main} Get slot "title"
+Mar 12 17:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 17:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 17:57:40 symfony [info] {sfWebDebugLogger} Configuration 4.37 ms (9)
+Mar 12 17:57:40 symfony [info] {sfWebDebugLogger} Factories 68.36 ms (1)
+Mar 12 17:57:40 symfony [info] {sfWebDebugLogger} Action "job/create" 107.28 ms (1)
+Mar 12 17:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "job/create" 136.44 ms (1)
+Mar 12 17:57:40 symfony [info] {sfWebDebugLogger} Partial "job/_form" 106.03 ms (1)
+Mar 12 17:57:40 symfony [info] {sfWebResponse} Send content (57652 o)
+Mar 12 18:01:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Mar 12 18:01:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:01:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:01:04 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Mar 12 18:01:04 symfony [info] {sfFrontWebController} Redirect to "http://192.168.10.4:8081/frontend_dev.php/job/edit/id/7"
+Mar 12 18:01:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 12 18:01:04 symfony [info] {sfWebResponse} Send header "Location: http://192.168.10.4:8081/frontend_dev.php/job/edit/id/7"
+Mar 12 18:01:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:01:04 symfony [info] {sfWebDebugLogger} Configuration 3.81 ms (8)
+Mar 12 18:01:04 symfony [info] {sfWebDebugLogger} Factories 69.05 ms (1)
+Mar 12 18:01:04 symfony [info] {sfWebDebugLogger} Action "job/create" 238.50 ms (1)
+Mar 12 18:01:04 symfony [info] {sfWebResponse} Send content (126 o)
+Mar 12 18:01:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/edit/id/7 with parameters array (  'module' => 'job',  'action' => 'edit',  'id' => '7',)
+Mar 12 18:01:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:01:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:01:05 symfony [info] {jobActions} Call "jobActions->executeEdit()"
+Mar 12 18:01:05 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/editSuccess.php"
+Mar 12 18:01:05 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 18:01:05 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:05 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:05 symfony [info] {main} Get slot "title"
+Mar 12 18:01:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:01:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:01:05 symfony [info] {sfWebDebugLogger} Configuration 4.27 ms (9)
+Mar 12 18:01:05 symfony [info] {sfWebDebugLogger} Factories 67.10 ms (1)
+Mar 12 18:01:05 symfony [info] {sfWebDebugLogger} Action "job/edit" 87.79 ms (1)
+Mar 12 18:01:05 symfony [info] {sfWebDebugLogger} View "Success" for "job/edit" 151.62 ms (1)
+Mar 12 18:01:05 symfony [info] {sfWebDebugLogger} Partial "job/_form" 120.91 ms (1)
+Mar 12 18:01:05 symfony [info] {sfWebResponse} Send content (55894 o)
+Mar 12 18:01:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/update/id/7 with parameters array (  'module' => 'job',  'action' => 'update',  'id' => '7',)
+Mar 12 18:01:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:01:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:01:14 symfony [info] {jobActions} Call "jobActions->executeUpdate()"
+Mar 12 18:01:14 symfony [info] {sfFrontWebController} Redirect to "http://192.168.10.4:8081/frontend_dev.php/job/edit/id/7"
+Mar 12 18:01:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 12 18:01:14 symfony [info] {sfWebResponse} Send header "Location: http://192.168.10.4:8081/frontend_dev.php/job/edit/id/7"
+Mar 12 18:01:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:01:14 symfony [info] {sfWebDebugLogger} Configuration 3.80 ms (8)
+Mar 12 18:01:14 symfony [info] {sfWebDebugLogger} Factories 67.42 ms (1)
+Mar 12 18:01:14 symfony [info] {sfWebDebugLogger} Action "job/update" 197.34 ms (1)
+Mar 12 18:01:14 symfony [info] {sfWebResponse} Send content (126 o)
+Mar 12 18:01:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/edit/id/7 with parameters array (  'module' => 'job',  'action' => 'edit',  'id' => '7',)
+Mar 12 18:01:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:01:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:01:15 symfony [info] {jobActions} Call "jobActions->executeEdit()"
+Mar 12 18:01:15 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/editSuccess.php"
+Mar 12 18:01:15 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 18:01:15 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:15 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:15 symfony [info] {main} Get slot "title"
+Mar 12 18:01:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:01:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:01:15 symfony [info] {sfWebDebugLogger} Configuration 4.16 ms (9)
+Mar 12 18:01:15 symfony [info] {sfWebDebugLogger} Factories 69.28 ms (1)
+Mar 12 18:01:15 symfony [info] {sfWebDebugLogger} Action "job/edit" 87.32 ms (1)
+Mar 12 18:01:15 symfony [info] {sfWebDebugLogger} View "Success" for "job/edit" 150.58 ms (1)
+Mar 12 18:01:15 symfony [info] {sfWebDebugLogger} Partial "job/_form" 120.97 ms (1)
+Mar 12 18:01:15 symfony [info] {sfWebResponse} Send content (55897 o)
+Mar 12 18:01:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:01:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:01:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:01:20 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:01:20 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:01:20 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:20 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:01:20 symfony [info] {main} Get slot "title"
+Mar 12 18:01:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:01:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:01:20 symfony [info] {sfWebDebugLogger} Configuration 4.27 ms (9)
+Mar 12 18:01:20 symfony [info] {sfWebDebugLogger} Factories 67.31 ms (1)
+Mar 12 18:01:20 symfony [info] {sfWebDebugLogger} Action "job/index" 45.83 ms (1)
+Mar 12 18:01:20 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 32.35 ms (1)
+Mar 12 18:01:20 symfony [info] {sfWebResponse} Send content (29714 o)
+Mar 12 18:09:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:09:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:09:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:09:08 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:09:08 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:09:08 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:09:08 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:09:08 symfony [info] {main} Get slot "title"
+Mar 12 18:09:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:09:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:09:08 symfony [info] {sfWebDebugLogger} Configuration 4.25 ms (9)
+Mar 12 18:09:08 symfony [info] {sfWebDebugLogger} Factories 67.27 ms (1)
+Mar 12 18:09:08 symfony [info] {sfWebDebugLogger} Action "job/index" 46.04 ms (1)
+Mar 12 18:09:08 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 31.64 ms (1)
+Mar 12 18:09:08 symfony [info] {sfWebResponse} Send content (29368 o)
+Mar 12 18:16:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/8 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '8',)
+Mar 12 18:16:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:16:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:16:58 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Mar 12 18:16:58 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Mar 12 18:16:58 symfony [info] {main} Set slot "title"
+Mar 12 18:16:58 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:16:58 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:16:58 symfony [info] {main} Get slot "title"
+Mar 12 18:16:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:16:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:16:58 symfony [info] {sfWebDebugLogger} Configuration 4.27 ms (9)
+Mar 12 18:16:58 symfony [info] {sfWebDebugLogger} Factories 68.88 ms (1)
+Mar 12 18:16:58 symfony [info] {sfWebDebugLogger} Action "job/show" 48.38 ms (1)
+Mar 12 18:16:58 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 34.07 ms (1)
+Mar 12 18:16:58 symfony [info] {sfWebResponse} Send content (30041 o)
+Mar 12 18:17:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:17:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:17:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:17:30 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:17:30 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:17:30 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:17:30 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:17:30 symfony [info] {main} Get slot "title"
+Mar 12 18:17:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:17:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:17:30 symfony [info] {sfWebDebugLogger} Configuration 4.39 ms (9)
+Mar 12 18:17:30 symfony [info] {sfWebDebugLogger} Factories 68.47 ms (1)
+Mar 12 18:17:30 symfony [info] {sfWebDebugLogger} Action "job/index" 48.09 ms (1)
+Mar 12 18:17:30 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 33.32 ms (1)
+Mar 12 18:17:30 symfony [info] {sfWebResponse} Send content (29452 o)
+Mar 12 18:26:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Mar 12 18:26:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:26:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:26:50 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Mar 12 18:26:50 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/newSuccess.php"
+Mar 12 18:26:50 symfony [info] {sfPartialView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/_form.php"
+Mar 12 18:26:50 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:26:50 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:26:50 symfony [info] {main} Get slot "title"
+Mar 12 18:26:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:26:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:26:50 symfony [info] {sfWebDebugLogger} Configuration 4.25 ms (9)
+Mar 12 18:26:50 symfony [info] {sfWebDebugLogger} Factories 67.34 ms (1)
+Mar 12 18:26:50 symfony [info] {sfWebDebugLogger} Action "job/new" 73.53 ms (1)
+Mar 12 18:26:50 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 158.86 ms (1)
+Mar 12 18:26:50 symfony [info] {sfWebDebugLogger} Partial "job/_form" 129.14 ms (1)
+Mar 12 18:26:50 symfony [info] {sfWebResponse} Send content (54851 o)
+Mar 12 18:26:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:26:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:26:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:26:54 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:26:54 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:26:54 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:26:54 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:26:54 symfony [info] {main} Get slot "title"
+Mar 12 18:26:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:26:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:26:54 symfony [info] {sfWebDebugLogger} Configuration 4.26 ms (9)
+Mar 12 18:26:54 symfony [info] {sfWebDebugLogger} Factories 66.45 ms (1)
+Mar 12 18:26:54 symfony [info] {sfWebDebugLogger} Action "job/index" 46.22 ms (1)
+Mar 12 18:26:54 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 31.37 ms (1)
+Mar 12 18:26:54 symfony [info] {sfWebResponse} Send content (29446 o)
+Mar 12 18:31:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:31:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:31:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:31:42 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:31:42 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:31:42 symfony [notice] {sfWebDebugLogger}  Notice at /srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php on line 6 (Undefined variable: JobeetJobs)
+Mar 12 18:31:42 symfony [warning] {sfWebDebugLogger}  Warning at /srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php on line 6 (Invalid argument supplied for foreach())
+Mar 12 18:31:42 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:31:42 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:31:42 symfony [info] {main} Get slot "title"
+Mar 12 18:31:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:31:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:31:42 symfony [info] {sfWebDebugLogger} Configuration 4.33 ms (9)
+Mar 12 18:31:42 symfony [info] {sfWebDebugLogger} Factories 67.82 ms (1)
+Mar 12 18:31:42 symfony [info] {sfWebDebugLogger} Action "job/index" 57.77 ms (1)
+Mar 12 18:31:42 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 30.38 ms (1)
+Mar 12 18:31:43 symfony [info] {sfWebResponse} Send content (28830 o)
+Mar 12 18:32:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 12 18:32:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 12 18:32:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 12 18:32:21 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 12 18:32:21 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Mar 12 18:32:21 symfony [info] {sfPHPView} Decorate content with "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:32:21 symfony [info] {sfPHPView} Render "/srv/www/htdocs/jobeet/apps/frontend/templates/layout.php"
+Mar 12 18:32:21 symfony [info] {main} Get slot "title"
+Mar 12 18:32:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 12 18:32:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 12 18:32:21 symfony [info] {sfWebDebugLogger} Configuration 4.47 ms (9)
+Mar 12 18:32:21 symfony [info] {sfWebDebugLogger} Factories 60.84 ms (1)
+Mar 12 18:32:21 symfony [info] {sfWebDebugLogger} Action "job/index" 43.95 ms (1)
+Mar 12 18:32:21 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 28.94 ms (1)
+Mar 12 18:32:21 symfony [info] {sfWebResponse} Send content (29098 o)
